@@ -1,0 +1,564 @@
+.container-fluid{
+    background-image: url('src/assets/moo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 107px 0px;
+    margin-bottom: 150px;
+}
+.container-fluid h1
+    {
+        color: #000;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+    }
+/* ----- */
+.card{
+        width: 100%;
+        position: relative;
+        border: none;
+ }
+ .card .card-title{
+    font-family: "Playfair Display", serif;
+    color: #0b1c39;
+    font-size: 21px;
+    margin-bottom: 15px;
+ }
+ .card .a1{
+    color: #0b1c39;
+ }
+ .a1:hover{
+    text-decoration: none;
+    color: red !important;
+ }
+ .card p{
+    font-family: "Poppins", sans-serif;
+    color: #506172;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+ }
+ .card a{
+     text-decoration: none;
+ }
+ .card ul{
+     list-style: none;
+     display: flex;
+     margin-left: -50px;
+ }
+ .card li {
+    margin-right: 7px;
+ }
+ .li1{
+    padding: 0px 7px;
+    border-right: 1px solid;
+
+ }
+ .li1 a{
+     color: #506172;
+ }
+ .li1 a:hover{
+    color: #FF003C !important;
+ }
+ .li2 a{
+    color: #506172;
+}
+.li2 a:hover{
+   color: #FF003C !important;
+}
+.aa{
+    border: 1px solid #FF003C;
+    width: 100px;
+    padding: 8px 31px;
+    position: absolute;
+    left: 12px;
+    bottom: 475px;
+    background: #FF003C;
+    border-radius: 4px;
+    color: #fff;
+
+}
+.aa:hover{
+    color: #FF003C;
+    border: none;
+    background: transparent;
+}
+.card-body{
+    margin-top: 25px;
+}
+.f-right{
+    position: relative;
+    padding-bottom: 35px;
+}
+.f-right input{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: 300;
+}
+.search-icon{
+    position: absolute;
+    top: 10px;
+    right: 13px;
+}
+.all{
+    border: 1px solid #FBF9FF;
+    padding: 25px ;
+    background-color: #FBF9FF;
+    margin-bottom: 30px;
+}
+.btn{
+    border: 1px solid #2577FD;
+    width: 100%;
+    background: #2577FD;
+    outline: none;
+    color: #fff;
+    border-radius: 31px;
+    padding: 9px;
+}
+.all .link:not(.link1){
+    border-top: 1px solid;
+}
+.link{
+    padding: 15px 0;
+}
+.link1{
+    border-top: 1px solid;
+    padding: 15px 0;
+}
+.all a{
+    color: black;
+    text-decoration: none;
+}
+.all a:hover{
+    color: #FF003C ;
+}
+.all h4{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #0b1c39;
+}
+.all1{
+    border: 1px solid #FBF9FF;
+    padding: 25px ;
+    background-color: #FBF9FF;
+    margin-bottom: 30px;
+}
+.media{
+    margin-bottom: 15px;
+}
+.all1 h4{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #0b1c39;
+    border-bottom: 1px solid;
+    padding-bottom: 25px;
+}
+.linkk a{
+    color: black;
+    text-decoration: none;
+}
+.linkk a:hover{
+    color: #FF003C;
+}
+.all2{
+    border: 1px solid #FBF9FF;
+    padding: 25px ;
+    background-color: #FBF9FF;
+    margin-bottom: 30px;
+}
+.all2 h4{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #0b1c39;
+    border-bottom: 1px solid;
+    padding-bottom: 25px;
+}
+.all2 ul{
+    list-style: none;
+}
+.all2 a{
+    border: 1px solid;
+    padding: 3px 10px;
+}
+.all2 .hh a{
+    margin-right: 15px;
+    border: 1px solid darkgray;
+    color: #fff;
+    background-color: darkgray;
+    text-decoration: none;
+    border-radius: 4px;
+    outline: none;
+
+}
+.all2 .hh a:hover{
+color: #fff;
+background-color: #FF003C;
+border: 1px solid #FF003C;
+}
+.pagination{
+    margin-left: 500px;
+}
+.all3{
+    border: 1px solid #FBF9FF;
+    padding: 25px ;
+    background-color: #FBF9FF;
+    margin-bottom: 30px;
+}
+.all3 h4{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #0b1c39;
+    border-bottom: 1px solid;
+    padding-bottom: 25px;
+}
+.all3 img{
+    margin-right: 8px;
+}
+.div1{
+    padding: 50px;
+    background-color: #F2F3F7;
+}
+.div1 p{
+    border-left: 1px solid;
+    padding: 15px;
+    color: #888888;
+    line-height: 1.8;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.div2{
+    font-family: "Poppins", sans-serif;
+    margin: 15px 0;
+    line-height: 1.8;
+    border-bottom: 1px solid #8888;
+}
+/*  */
+.left ul{
+    margin-left: 362px;
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+}
+.right .media2{
+    margin-left: 285px;
+    display: flex;
+}
+.media2 .media-body{
+    padding-right: 9px;
+}
+.left + .right  a{
+    color:black;
+    text-decoration: none;
+}
+.left + .right  a:hover{
+    color:#FF003C;
+    text-decoration: none;
+}
+.left + .right{
+    color:#888;
+    text-decoration: none;
+    margin-top: 20px;
+    border-bottom: 1px solid #888;
+    padding-bottom: 20px;
+}
+.right .media2{
+    text-align: end;
+}
+.left ul a{
+    color: black;
+}
+.left ul a:hover{
+    color: #FF003C;
+}
+/* hov */
+.hov{
+    font-size: 40px;
+    border: 1px solid;
+    height: 60px;
+    background-color: #564e3e91;
+    color: #fff;
+    position: absolute;
+    opacity: 0;
+}
+.hov + .hov1 a{
+    color: #fff;
+}
+.hov + .hov1 a:hover{
+    color: #fff;
+}
+.hov i{
+    padding: 0 22px;
+    color: #fff;
+}
+.right{
+    position: relative;
+}
+.hov1{
+    font-size: 40px;
+    border: 1px solid;
+    height: 60px;
+    background-color: #564e3e91;
+    color: #fff;
+    position: absolute;
+    right: 16px;
+    padding: 0px 22px;
+    opacity: 0;
+}
+.hov:hover {
+    opacity: 1;
+}
+.hov1:hover{
+    opacity: 1;
+}
+.bf{
+    margin: 38px 0px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #506172;
+}
+.bf .media{
+    background-color: #FBF9FF;
+    padding: 35px;
+}
+.bf a{
+    text-decoration: none;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+}
+.bf a:hover{
+    color: #FF003C;
+}
+.bf .media-body{
+    color: #506172;
+    line-height: 2;
+}
+.allrep{
+    border-bottom: 1px solid #506172;
+    padding-bottom: 35px;
+    margin-bottom: 55px;
+}
+.allrep h4{
+    font-family: "Playfair Display", serif;
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+.allrep .media{
+    margin-bottom: 40px;
+}
+.allrep .media-body{
+        font-family: "Poppins", sans-serif;
+        color: #777777;
+        font-size: 15px;
+        line-height: 2.3;
+    }
+    .allrep .media-body span{
+        margin-left: 60px;
+        color: darkgray;
+    }
+    .allrep .media-body a{
+        margin-left: 310px;
+        text-decoration: none;
+        color: darkgray;
+
+    }
+    .allrep .media-body a:hover{
+        color: #FF003C;
+    }
+    .form textarea{
+        margin-bottom: 15px;
+       padding: 20px;
+        min-height:141px;
+         max-height: 238px;
+         border:1px solid;
+    }
+    .form ul{
+        list-style: none;
+        display: flex;
+    }
+  .form  input{
+    margin-right: 57px;
+    margin-left: -40px;
+    border: 1px solid;
+    outline: none;
+    padding: 10px;
+    border-radius: 7px;
+    width: 300px;
+    margin-bottom: 20px;
+    }
+    .btnn{
+    border: 1px solid #2577FD;
+    background-color: #2577FD;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px 45px;
+    margin-bottom: 70px;
+    }
+    .btnn:hover{
+        background-color: #fff;
+        border-color: #FF003C;
+        color: black;
+    }
+@media(max-width: 767px){ 
+    .left{
+        display: block;
+    }
+    .left ul {
+        margin: 0;
+    }
+    .media2{
+        margin-left: 0!important;
+    }
+    .allrep a{
+        margin-left: 77px !important;
+    }
+    .allrep span{
+        margin: 0 !important;
+    }
+    .allrep .media-body{
+        font-size: 14px !important;
+    }
+    .aa{
+        bottom: 817px !important;
+    }
+    textarea{
+        width: 100%;
+    }
+    form ul{
+        display: block!important;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+ 
+    .all2 .hh {
+        display: block;
+    }
+    .hh a:last-child{
+        display: block;
+        margin-top: 10px;
+    }
+    .left{
+        display: block;
+    }
+    .left ul {
+        margin: 0;
+    }
+    .media2{
+        margin-left: 0!important;
+    }
+    .allrep a{
+        margin-left: 77px !important;
+    }
+    .allrep span{
+        margin: 0 !important;
+    }
+    .allrep .media-body{
+        font-size: 14px !important;
+    }
+    .aa{
+        bottom: 637px !important;
+    }
+    textarea{
+        width: 100%;
+    }
+    form ul{
+        display: block!important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1999px){ 
+    .left{
+        display: block;
+    }
+    .left ul {
+        margin: 0;
+    }
+    .media2{
+        margin-left: 0!important;
+    }
+    .allrep a{
+        margin-left: 77px !important;
+    }
+    .allrep span{
+        margin: 0 !important;
+    }
+    .allrep .media-body{
+        font-size: 14px !important;
+    }
+    .aa{
+        bottom: 495px !important;
+    }
+    textarea{
+        width: 100%;
+    }
+    form ul{
+        display: block!important;
+    }
+}
+@media (min-width: 1200px) {
+    .aa{
+        bottom: 475px !important;
+    }
+    .form ul{
+        list-style: none;
+        display: flex !important;
+    }
+    .form textarea{
+        margin-bottom: 15px;
+       padding: 20px !important;
+        min-height:141px;
+         max-height: 238px !important;
+         border:1px solid;
+    }
+    .allrep .media-body{
+        font-family: "Poppins", sans-serif;
+        color: #777777;
+        font-size: 15px !important;
+        line-height: 2.3;
+    }
+    .allrep .media-body span{
+        margin-left: 60px !important;
+        color: darkgray;
+    }
+    .allrep .media-body a{
+        margin-left: 310px !important;
+        text-decoration: none;
+        color: darkgray;
+
+    }
+    .left ul{
+        margin-left: 362px !important;
+    }
+    .left{
+        display: flex !important;
+    }
+    .right{
+        display: flex;
+    }
+    .right .media2{
+        margin-left: 285px!important;
+        display: flex!important;
+    }
+
+}

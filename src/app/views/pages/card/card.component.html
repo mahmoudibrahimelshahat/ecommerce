@@ -1,0 +1,85 @@
+<div class="container-fluid" id="col">
+    <div class="container">
+        <h1>Card List</h1>
+    </div>
+</div>
+<!-- -- -->
+<div class="container-fluid-1">
+    <div class="container">
+        <table>
+            <thead>
+                <tr class="tr1">
+                  <th scope="col">Product</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="cont" scope="row">
+                      <img src="assets/v.png" alt="">
+                      <p> Minimalistic shop for multipurpose use</p>
+                  </th>
+                  <td>$360.00</td>
+                  <td>
+                    <div class="k" let i = "amount">
+                        <button class="boo" (click)="addItem()">+</button>
+                        <span  class="lol1">{{amount}}</span>
+                        <button class="boo" (click)="removeItem()" >-</button>
+                    </div>
+                  </td>
+                  <td>$720.00</td>
+                </tr>
+                <tr class="tr2">
+                  <th class="cont" scope="row">
+                    <img src="assets/v1.png" alt="">
+                    <p> Minimalistic shop for multipurpose use</p>
+                  </th>
+                  <td>$360.00</td>
+                  <td>
+                    <div class="k" let i = "amo">
+                        <button class="boo" (click)="add()">+</button>
+                        <span  class="lol1">{{amo}}</span>
+                        <button class="boo" (click)="remove()" >-</button>
+                    </div>
+                  </td>
+                  <td>$720.00</td>
+                </tr>
+              </tbody>
+        </table>
+        <!--*************  -->
+            <div class="buttons">
+                <div class="nope"><a href="#" class="btn fi">Update Cart</a></div>
+                <div class="nope"> <a href="#" class="btn ho">Close Coupon</a></div>
+            </div>
+            <div class="sub">
+                <span class="s1">Subtotal</span>
+                <span class="s2">$2160.00</span>
+            </div>
+            <!-- --------- -->
+            <div class="all-shop">
+                <span>Shipping</span>
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="1">
+                    <label for="1">Flat Rate: $5.00</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="2">
+                    <label for="2">Free Shipping</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="3">
+                    <label for="3">Flat Rate: $5.00</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="4">
+                    <label for="4">Local Delivery: $2.00</label>
+                </div>
+            </div>
+            <div class="buttons1">
+                <div class="nope"><a href="#" class="btn fi">Continue Shopping</a></div>
+                <div class="nope1"> <a href="#" class="btn ho">Proceed to checkout</a></div>
+            </div>
+    </div>
+</div>

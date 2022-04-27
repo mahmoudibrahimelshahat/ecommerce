@@ -1,0 +1,267 @@
+.container-fluid{
+    background-image: url('src/assets/moo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 107px 0px;
+    margin-bottom: 150px;
+}
+.container-fluid h1
+    {
+        color: #000;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+    }
+/* ----- */
+.card{
+        width: 100%;
+        position: relative;
+        box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+        margin-bottom: 50px;
+ }
+ .card .card-title{
+    font-family: "Playfair Display", serif;
+    color: #0b1c39;
+    font-size: 24px;
+    margin-bottom: 15px;
+ }
+ .card .a1{
+    color: #0b1c39;
+ }
+ .a1:hover{
+    text-decoration: none;
+    color: red !important;
+ }
+ .card p{
+    font-family: "Poppins", sans-serif;
+    color: #506172;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+ }
+ .card a{
+     text-decoration: none;
+ }
+ .card ul{
+     list-style: none;
+     display: flex;
+ }
+ .card li {
+    margin-right: 7px;
+ }
+ .li1{
+    padding: 0px 7px;
+    border-right: 1px solid;
+
+ }
+ .li1 a{
+     color: #506172;
+ }
+ .li1 a:hover{
+    color: #FF003C !important;
+ }
+ .li2 a{
+    color: #506172;
+}
+.li2 a:hover{
+   color: #FF003C !important;
+}
+.aa{
+    border: 1px solid #FF003C;
+    width: 100px;
+    padding: 8px 31px;
+    position: absolute;
+    left: 12px;
+    bottom: 218px;
+    background: #FF003C;
+    border-radius: 4px;
+    color: #fff;
+
+}
+.aa:hover{
+    color: #FF003C;
+    border: none;
+    background: transparent;
+}
+.card-body{
+    margin-top: 25px;
+}
+.f-right{
+    position: relative;
+    padding-bottom: 35px;
+}
+.f-right input{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: 300;
+}
+.search-icon{
+    position: absolute;
+    top: 10px;
+    right: 13px;
+}
+.all{
+    border: 1px solid #FBF9FF;
+    padding: 25px ;
+    background-color: #FBF9FF;
+    margin-bottom: 30px;
+}
+.btn{
+    border: 1px solid #2577FD;
+    width: 100%;
+    background: #2577FD;
+    outline: none;
+    color: #fff;
+    border-radius: 31px;
+    padding: 9px;
+}
+.all .link:not(.link1){
+    border-top: 1px solid;
+}
+.link{
+    padding: 15px 0;
+}
+.link1{
+    border-top: 1px solid;
+    padding: 15px 0;
+}
+.all a{
+    color: black;
+    text-decoration: none;
+}
+.all a:hover{
+    color: #FF003C ;
+}
+.all h4{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #0b1c39;
+}
+.all1{
+    border: 1px solid #FBF9FF;
+    padding: 25px ;
+    background-color: #FBF9FF;
+    margin-bottom: 30px;
+}
+.media{
+    margin-bottom: 15px;
+}
+.all1 h4{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #0b1c39;
+    border-bottom: 1px solid;
+    padding-bottom: 25px;
+}
+.linkk a{
+    color: black;
+    text-decoration: none;
+}
+.linkk a:hover{
+    color: #FF003C;
+}
+.all2{
+    border: 1px solid #FBF9FF;
+    padding: 25px ;
+    background-color: #FBF9FF;
+    margin-bottom: 30px;
+}
+.all2 h4{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #0b1c39;
+    border-bottom: 1px solid;
+    padding-bottom: 25px;
+}
+.all2 ul{
+    list-style: none;
+}
+.all2 a{
+    border: 1px solid;
+    padding: 3px 10px;
+}
+.all2 .hh a{
+    margin-right: 15px;
+    border: 1px solid darkgray;
+    color: #fff;
+    background-color: darkgray;
+    text-decoration: none;
+    border-radius: 4px;
+    outline: none;
+
+}
+.all2 .hh a:hover{
+color: #fff;
+background-color: #FF003C;
+border: 1px solid #FF003C;
+}
+.pagination{
+    margin-left: 500px;
+}
+.all3{
+    border: 1px solid #FBF9FF;
+    padding: 25px ;
+    background-color: #FBF9FF;
+    margin-bottom: 30px;
+}
+.all3 h4{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #0b1c39;
+    border-bottom: 1px solid;
+    padding-bottom: 25px;
+}
+.all3 img{
+    margin-right: 8px;
+}
+@media(max-width: 767px){ 
+        .pagination{
+        margin: 0;
+    }
+    .aa{
+        bottom: 350px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .pagination{
+        margin-left: 200px;
+    }
+    .all2 .hh {
+        display: block;
+    }
+    .hh a:last-child{
+        display: block;
+        margin-top: 10px;
+    }
+    .aa{
+        bottom: 295px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1999px){ 
+    .aa{
+        bottom: 245px;
+    }
+}
+@media (min-width: 1200px) {
+.aa{
+    bottom: 218px;
+}
+}

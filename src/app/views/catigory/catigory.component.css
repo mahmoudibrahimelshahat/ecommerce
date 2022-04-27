@@ -1,0 +1,218 @@
+.container-fluid{
+    background-image: url('src/assets/moo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 107px 0px;
+    margin-bottom: 200px;
+}
+.container-fluid h1
+    {
+        color: #000;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+    }
+/* -------- */
+.container-fluid-3{
+    padding-bottom: 130px;
+}
+.container-fluid-3 span{
+    margin-right: 10px;
+}
+.container-fluid-3 h1{
+    font-family: "Playfair Display", serif;
+}
+.container-fluid-3 button{
+    text-transform: capitalize;
+    margin-right: 15px;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: gray;
+    text-decoration: none
+}
+.container-fluid-3 button:active{
+    color: red;
+}
+.col-md-8{
+    text-align: start;
+}
+.r1{
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    margin-bottom: 75px;
+}
+.dimg img{
+    width: 100%;
+}
+.dcon{
+    text-align: center;
+    padding: 10px 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding-left: 100px;
+}
+li{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 13px;
+}
+del{
+    color: #ff003c;
+}
+.dcon a{
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: black;
+}
+.dcon a:hover{
+    color: #ff003c;
+    text-decoration: none;
+}
+.dcon span{
+    border: 1px solid red;
+    background-color: red;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    display: inline-block;
+}
+/* ------------- */
+.container-fluid-6 {
+    padding-bottom: 140px;
+    margin-top: 45px;
+}
+ .container-fluid-6 .btn{
+    border: 1px solid #2577FD;
+    border-radius: 50px;
+    padding: 0px 27px;
+    background-color: #2577FD;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    right: 74px;
+    padding: 10px 35px;
+}
+
+.btn:hover{
+    background-color: #00B1FF;
+    transition: color 0.4s linear;
+}
+.container-fluid-6 .container{
+    background-image: url('src/assets/10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid-6 .jo{
+    padding: 75px 91px 15px;
+}
+.container-fluid-6 .joo{
+    padding: 150px 91px 15px;
+    position: relative;
+}
+.container-fluid-6 h1{
+    color: #000;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 19px;
+    font-family: "Playfair Display", serif;
+}
+.container-fluid-6 p{
+    color: #373b41;
+    font-size: 20px;
+    margin-bottom: 55px;
+    font-family: "Poppins", sans-serif;
+}
+.container-fluid-6 input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+}
+/* --------------- */
+.container-fluid-7{
+    padding-bottom: 150px;
+}
+.container-fluid-7 svg{
+    color: #282828;
+    margin-bottom: 25px;
+    display: block;
+    width: 55px;
+}
+.container-fluid-7 h6{
+    color: #282828;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-family: "Poppins", sans-serif;
+}
+.container-fluid-7 p{
+    font-family: "Poppins", sans-serif;
+    color: #506172;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.container-fluid-7 .col-md-4{
+    padding-left: 55px;
+}
+/* ------ */
+.container-fluid-8 img{
+    width: 100%;
+    height: 100%;
+}
+.container-fluid-8{
+    padding-bottom: 150px;
+}
+.container-fluid-3 button.active-btn {
+    color: red;
+}
+/* ------------- */
+@media (min-width: 320px) and (max-width: 575px){ 
+    .jo{
+        padding: 0 !important;
+    }
+    .joo{
+        padding: 0px 0px 15px !important;
+    }
+    .btn{
+        top: 0 !important;
+    right: -16px!important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+    .jo{
+        padding: 0 !important;
+    }
+    .joo{
+        padding: 0px 0px 15px !important;
+    }
+    .btn{
+        top: 0 !important;
+    right: -16px!important;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .jo{
+        padding: 0 !important;
+    }
+    .joo{
+        padding: 106px 0px 15px !important;
+    }
+    .btn{
+        top: 106px !important;
+    right: -16px!important;
+    }
+} 

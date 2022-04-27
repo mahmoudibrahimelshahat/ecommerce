@@ -1,0 +1,108 @@
+.container-fluid{
+    background-image: url('src/assets/moo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 107px 0px;
+    margin-bottom: 150px;
+}
+.container-fluid h1
+    {
+        color: #000;
+        font-size: 47px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+    }
+    /* -- */
+    .container-fluid-1{
+        margin-bottom: 50px;
+    }
+    .s4{
+        text-align: center;
+    margin-bottom: 55px;
+    }
+    .s4 span{
+        color: #2577fd;
+        margin-right: 200px;
+    }
+    .mr-2{
+        border: 1px solid #F7F7F7;
+    background: #F7F7F7;
+    padding: 30px;
+    }
+    .mr-2 h5{
+        font-family: "Playfair Display", serif;
+        color: #0b1c39;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 17px;
+    }
+    .mr-2 p{
+        line-height: 21px;
+    color: #777777;
+    }
+    .mr-2  .s2{
+     margin-left: 175px;
+    }
+    .mr-2 .s3,.s4{
+        margin-left: 242px;
+    }
+    .mr-2 .s5{
+        margin-left: 143px;
+    }
+    .mr-2 .s44{
+        margin-left: 220px;
+    }
+    .mr-2 .s33{
+        margin-left: 245px;
+    }
+    .mr-2 .s22{
+        margin-left: 229px;
+    }
+    .s55{
+        margin-left: 202px;
+    }
+    /* ----------- */   
+    .container-fluid-2{
+        margin-bottom: 150px;
+    }
+    .col-md-12{
+        background: #f7f7f7;
+        padding: 35px;
+    }
+    .header h3{
+        font-family: "Playfair Display", serif;
+        font-size: 18px;
+        border-bottom: 1px solid #dddddd;
+        padding-bottom: 10px;
+    }
+     th{
+        font-weight: 500;
+    }
+    table span{
+        color: #777777;
+        font-weight: 400;
+    }
+    thead{
+        border-bottom: 1px solid #dddddd;
+    }
+    tfoot{
+        border-top: 1px solid #dddddd;
+    }
+    @media(max-width: 767px) {
+        .s4{
+            margin: 0;
+            margin-bottom: 55px;
+        }
+        .s4 span{
+            margin: 0;
+        }
+    }
+    @media(min-width: 768px) and (max-width: 991px) {
+        .s4{
+            margin-left: 133px;
+            margin-bottom: 55px;
+        }
+    } 
+    

@@ -1,0 +1,274 @@
+.container-fluid{
+    background-image: url('src/assets/moo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 107px 0px;
+    margin-bottom: 150px;
+}
+.container-fluid h1
+    {
+        color: #000;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+    }
+    /* ------------ */
+    .check_title h2 {
+        font-size: 14px;
+        font-weight: normal;
+        font-family: "Playfair Display", serif;
+        background: #f7f7f7;
+        line-height: 40px;
+        padding-left: 30px;
+        margin-bottom: 0px;
+    }
+    .check_title h2 a {
+        color: #2577fd;
+        text-decoration: underline;
+    }
+    .returning_customer p {
+        margin-top: 15px;
+        padding-left: 30px;
+        margin-bottom: 25px;
+    }
+    .returning_customer .contact_form {
+        max-width: 710px;
+        margin-left: 15px;
+    }
+    .returning_customer .contact_form .form-group {
+        margin-bottom: 20px;
+    }
+    .returning_customer .contact_form .form-group input {
+        border: 1px solid #eeeeee;
+        height: 40px;
+        border-radius: 3px;
+        font-size: 14px;
+        font-family: "Playfair Display", serif;
+        color: #828bb2;
+        font-weight: normal;
+    }
+    .p_star .placeholder {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 30px;
+        z-index: 1;
+    }
+    .btn_3 {
+        display: inline-block;
+        padding: 18px 36px;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 1px solid #2577fd;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-weight: 400;
+        transition: 0.5s;
+    }
+    
+    .btn_3:hover {
+        background-color: #2577fd;
+        color: #fff;
+    }
+    .returning_customer .contact_form .form-group .creat_account {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .returning_customer .contact_form .form-group .creat_account input {
+        height: auto;
+        margin-right: 10px;
+    }
+    label {
+        display: inline-block;
+        margin-bottom: .5rem;
+    }
+    .returning_customer .contact_form .form-group .lost_pass {
+        display: block;
+        margin-top: 20px;
+        font-size: 14px;
+        font-family: "Playfair Display", serif;
+        color: #828bb2;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    .check_title h2 {
+        font-size: 14px;
+        font-weight: normal;
+        font-family: "Playfair Display", serif;
+        background: #f7f7f7;
+        line-height: 40px;
+        padding-left: 30px;
+        margin-bottom: 0px;
+    }
+    .cupon_area input {
+        margin-left: 30px;
+        max-width: 730px;
+        width: 100%;
+        display: block;
+        height: 40px;
+        border-radius: 3px;
+        padding: 0px 15px;
+        border: 1px solid #eeeeee;
+        outline: none;
+        box-shadow: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    button, input {
+        overflow: visible;
+    }
+    button, input, optgroup, select, textarea {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    .tp_btn:hover {
+        background: #2577fd;
+        color: #fff;
+        border-color: #2577fd;
+    }
+    .cupon_area .tp_btn {
+        margin-left: 30px;
+    }
+    .tp_btn {
+        border: 1px solid #eeeeee;
+        display: inline-block;
+        line-height: 38px;
+        padding: 0px 40px;
+        color: #415094;
+        text-transform: capitalize;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        text-decoration: none;
+        transition: 0.5s;
+        border-radius: 50px;
+    }
+    .cupon_area {
+        margin-bottom: 40px;
+    }
+    .country_select{
+            width: 100%;
+            padding: 10px;
+    }
+    .billing_details .contact_form .form-group .creat_account #f-option2 {
+        margin-right: 5px;
+    }
+    form h3{
+        font-size: 18px;
+        color: #415094;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        font-family: "Playfair Display", serif;
+    }
+    .billing_details .contact_form .form-group .creat_account #f-option3 {
+        margin-right: 5px;
+    }
+    .billing_details .contact_form .form-group textarea {
+        height: 150px;
+        border-radius: 3px;
+        margin-top: 15px;
+        height: 166px;
+        max-height: 250px;
+    }
+    .order_box {
+        background: #f7f7f7;
+        padding: 30px;
+    }
+    .order_box h2 {
+        border-bottom: 1px solid #dddddd;
+        font-size: 18px;
+        font-weight: 500;
+        color: #415094;
+        padding-bottom: 15px;
+        font-family: "Playfair Display", serif;
+    }
+    .order_box .list li a {
+        font-size: 14px;
+        color: #828bb2;
+        font-weight: normal;
+        border-bottom: 1px solid #eeeeee;
+        display: block;
+        line-height: 42px;
+    }
+    .order_box .list li a span {
+        float: right;
+    }
+    .order_box .list li a .middle {
+        float: none;
+        width: 50px;
+        text-align: right;
+        display: inline-block;
+        margin-left: 30px;
+        color: #415094;
+    }
+    .order_box .list_2 li a {
+        text-transform: uppercase;
+        color: #415094;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    ul li a{
+        text-decoration: none;
+    }
+    .radion_btn {
+        position: relative;
+        margin-top: 10px;
+    }
+    .radion_btn input[type="radio"] {
+        position: absolute;
+    }
+    .radion_btn label {
+        display: block;
+        position: relative;
+        font-weight: 300;
+        font-size: 1.35em;
+        padding: 0px 25px 21px 25px;
+        height: 14px;
+        z-index: 9;
+        cursor: pointer;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        color: #415094;
+        font-size: 13px;
+        letter-spacing: 0.25px;
+        text-transform: uppercase;
+    }
+    .order_box .payment_item p {
+        background: #fff;
+        padding: 20px;
+        font-family: "Poppins", sans-serif;
+        color: #506172;
+    }
+    .order_box .creat_account {
+        margin: 15px 0;
+    }
+    .order_box .creat_account label {
+        padding-left: 10px;
+        font-size: 12px;
+        color: #415094;
+        font-family: "Poppins", sans-serif;
+
+    }
+    .order_box .creat_account a {
+        color: #2577fd;
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        padding-left: 10px;
+
+    }
+    .order_box .btn_3 {
+        display: block;
+        line-height: 38px;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+    }

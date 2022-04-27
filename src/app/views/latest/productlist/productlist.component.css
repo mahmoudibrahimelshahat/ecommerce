@@ -1,0 +1,215 @@
+
+.container-fluid{
+    background-image: url('src/assets/moo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 107px 0px;
+    margin-bottom: 200px;
+}
+.container-fluid h1
+    {
+        color: #000;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+    }
+/* -------- */
+.container-fluid-1{
+    padding-bottom: 150px;
+}
+.f-right{
+    position: relative;
+    width: 100%;
+}
+.f-right input{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #F4EDF2 ;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: 300;
+    background-color: #F4EDF2;
+}
+.search-icon{
+    position: absolute;
+    top: 10px;
+    right: 13px;
+}
+select
+{
+    width: 100%;
+    border: 1px solid #F4EDF2;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #F4EDF2;
+    outline: none;
+}
+option{
+    background-color:#F4EDF2 ;
+    border: 1px solid #F4EDF2;
+    margin-top: 14px;
+}
+.content{
+    text-align: center;
+    margin-top: 10px;
+}
+.content h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+.content span{
+    font-weight: 200;
+    font-style: italic;
+}
+.btn{
+    border: 1px solid #2577FD;
+    color: #2577FD;
+    padding: 15px;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 700px;
+    margin-top: 25px;
+}
+
+.btn:hover{
+ background-color:#2577FD ;
+ color:#fff;
+ outline: none;
+}
+/* ---------- */
+.container-fluid-2{
+    background-color: #B08EAD;
+    padding: 180px 0;
+}
+.container-fluid-2 img{
+    width: 110px !important;
+    margin: -137px auto;
+}
+.carousel-inner{
+    padding: 67px 0;
+}
+.carousel-item.active {
+    padding: 80px;
+}
+/* -------- */
+.container-fluid-7{
+    padding: 120px 0;
+}
+.container-fluid-7 svg{
+    color: #282828;
+    margin-bottom: 35px;
+    display: block;
+    width: 55px;
+}
+.container-fluid-7 h6{
+    color: #282828;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-family: "Poppins", sans-serif;
+}
+.container-fluid-7 p{
+    font-family: "Poppins", sans-serif;
+    color: #506172;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.container-fluid-7 .col-md-4{
+    padding-left: 55px;
+}
+/* ------- */
+.container-fluid-3{
+    background-color: #191D34;
+    color: #fff;
+    padding: 180px 0;
+    text-align: center;
+}
+.container-fluid-3 h2{
+    font-family: "Playfair Display", serif;
+}
+.container-fluid-3 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.con{
+    position: relative;
+}
+.con input{
+    outline: none;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 38px;
+    width: 50%;
+    background-color: transparent;
+    color: #fff;
+}
+.con button{
+    position: absolute;
+    right: 282px;
+    border: 1px solid #2577FD;
+    outline: none;
+    padding: 10px 35px;
+    border-radius: 38px;
+    background-color: #2577FD;
+    color: #fff;
+    top: 5px;
+}
+.con button:hover{
+    background-color: #fff;
+    color: #2577FD;
+    border-color: #2577FD;
+}
+.container-fluid-6{
+    background-color: #B08EAD;
+}
+@media(max-width: 767px) {
+    .container-fluid-1 img{
+        width: 100%;
+    }
+    .btn{
+        margin-left: 30px;
+    }
+    .container-fluid-6 p{
+        font-size: 15px;
+    }
+    .con button{
+        position: relative;
+        right: 0;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .container-fluid-1 img{
+        width: 100%;
+    }
+    .btn{
+        margin-left: 30px;
+    }
+    .container-fluid-6 p{
+        font-size: 15px;
+    }
+    .con button{
+        right: 178px;
+    }
+} 
+@media (min-width: 992px) and (max-width: 1999px){ 
+    .container-fluid-1 img{
+        width: 100%;
+    }
+    .con button{
+        right: 238px;
+    }
+}
+@media (min-width:1200px){
+    .con button{
+        right: 282px;
+    }
+}

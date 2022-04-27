@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.owl-theme .owl-nav [class*=owl-] {
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px 17px;
+    border-radius: 100%;
+    background-color: #fff;
+    color: black;
+}
+.owl-theme{
+    position: relative;
+}
+.owl-next{
+    position: absolute;
+    top: 220px;
+    right: 0;
+}
+.owl-prev{
+    position: absolute;
+    left: 0;
+    top: 220px;
+}
+.container-fluid{
+    background-repeat:no-repeat;
+background-position: center center;
+}

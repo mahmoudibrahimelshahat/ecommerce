@@ -1,0 +1,210 @@
+.container-fluid{
+    background-image: url('src/assets/moo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 107px 0px;
+    margin-bottom: 150px;
+}
+.container-fluid h1
+    {
+        color: #000;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+    }
+    /* ----- */ 
+    .container-fluid-1 h5{ 
+        font-family: "Playfair Display", serif;
+        font-size: 20px;
+        color: #2577fd;
+        font-weight: 400;
+ 
+    }
+    .container-fluid-1 h3{
+        font-family: "Playfair Display", serif;
+        font-size: 22px;
+        line-height: 1.5;
+        color: #191d34;
+        margin: 5px 0 60px;
+        font-weight: 200;
+    }
+    .span-video{
+        border: 1px solid #795376;
+        display: inline-block;
+        width: 80px;
+        padding: 25px 31px;
+        border-radius: 100%;
+        position: absolute;
+        bottom: 197px;
+        left: 340px;
+        background-color: #795376;
+    }
+    .span-video  i{
+     font-size: 27px;
+    color: #fff;
+    }
+    .modal-content {
+        background: transparent ;
+        border: none;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        float: none;
+    }
+    .modal-body{
+        width: 1050px;
+        height: 687px;
+    }
+    .r1 h3{
+        font-size: 40px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    }
+    .r1 p{
+        color: #707070;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    }
+    .mr-2{
+        border: 1px solid #828BB2;
+        padding: 40px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-bottom: 0;
+        font-family: "Playfair Display", serif;
+        color: #0b1c39;
+    }
+    .mr-2 img{
+        margin-bottom: 16px;
+    }
+   .container-fluid-2{
+    margin: 150px 0;
+
+   }
+   .r2{
+       margin-top: 80px;
+   }
+   /* ------- */
+   .container-fluid-4{
+    background-color: #B08EAD;
+    padding: 180px 0;
+}
+.container-fluid-4 img{
+    width: 110px !important;
+    margin: -137px auto;
+}
+.carousel-inner{
+    padding: 67px 0;
+}
+.carousel-item.active {
+    padding: 80px;
+}
+/* ------ */
+.container-fluid-3{
+    background-color: #191D34;
+    color: #fff;
+    padding: 180px 0;
+    text-align: center;
+}
+.container-fluid-3 h2{
+    font-family: "Playfair Display", serif;
+}
+.container-fluid-3 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.con{
+    position: relative;
+}
+.con input{
+    outline: none;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 38px;
+    width: 50%;
+    background-color: transparent;
+    color: #fff;
+}
+.con button{
+    position: absolute;
+    right: 282px;
+    border: 1px solid #2577FD;
+    outline: none;
+    padding: 10px 35px;
+    border-radius: 38px;
+    background-color: #2577FD;
+    color: #fff;
+    top: 5px;
+}
+.con button:hover{
+    background-color: #fff;
+    color: #2577FD;
+    border-color: #2577FD;
+}
+@media(max-width: 767px) {
+    .video img{
+        width: 100%;
+    }
+    .span-video{
+        bottom: 65px;
+        left: 135px;
+    }
+    .con button{
+        position: relative;
+        right: 0;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .con button{
+        right: 178px;
+    }
+    .video img{
+        width: 100%;
+    }
+    .span-video{
+        bottom: 135px;
+        left: 234px;    
+    }
+} 
+@media (min-width: 992px) and (max-width: 1999px){ 
+    .con button{
+        right: 238px;
+    }
+}
+@media (min-width: 1200px){
+    .con button{
+        position: absolute;
+        right: 282px;
+        border: 1px solid #2577FD;
+        outline: none;
+        padding: 10px 35px;
+        border-radius: 38px;
+        background-color: #2577FD;
+        color: #fff;
+        top: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

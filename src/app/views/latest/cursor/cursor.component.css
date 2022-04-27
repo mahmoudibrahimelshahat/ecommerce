@@ -1,0 +1,22 @@
+img{
+    width: 105px !important;
+    margin: auto;
+    margin: 55px auto;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #fff;
+}
+h5{
+    font-size: 16px;
+    margin-top: 25px;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: "Playfair Display", serif;
+}
+.container{
+    background-color: #B08EAD;
+}
+

@@ -1,0 +1,167 @@
+.container-fluid{
+    background-image: url('src/assets/moo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 107px 0px;
+    margin-bottom: 150px;
+}
+.container-fluid h1
+    {
+        color: #000;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+    }
+    /* ----- */
+    table{
+        width: 100%;
+        font-size: 14px;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    color: #828bb2;
+    }
+    table img{
+        width: 20%;
+         border: 1px solid #888;   
+    }
+    .tr1{
+        border-bottom: 1px solid;
+    }
+    table .tr1 th{
+        padding-bottom: 20px;
+    }
+    .tr2{
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .cont{
+        display: flex;
+        padding: 16px 0;
+    }
+    th p{
+        margin-top: 70px;
+        margin-left: 15px;    
+    }
+    .lol1{
+        padding: 0;
+    }
+    .boo{
+        border: 1px solid;
+        background: transparent;
+    }
+    tbody td{
+        padding: 45px;
+    }
+    /* end of table */
+    .nope{
+        margin-top: 15px;
+    }
+    .nope a{
+        border: 1px solid #2577FD;
+        background-color: #2577FD;
+        color: #fff;
+        padding: 11px 40px;
+    }
+    .k{
+        display: flex;
+    }
+.nope a:hover{
+    color: #2577FD;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.ok{
+    text-align: end;
+}
+a:focus{
+box-shadow: none;
+}
+.buttons{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #888; 
+}
+.nope .ho{
+    margin-left: 760px;
+}
+.sub{
+    padding: 12px 0;
+    margin: 12px 0;
+    border-bottom: 1px solid #888;
+}
+.s2{
+    margin-left: 130px;
+}
+/* --- */
+.all-shop{
+    margin-top: 20px;
+}
+.all-shop span{
+    font-family: "Playfair Display", serif;
+}
+.checkbox{
+    padding: 10px 15px;
+    color: #828bb2;
+}
+.checkbox label{
+    padding-left: 15px;
+}
+/* ------ */
+.buttons1{
+    display: flex;
+    padding-bottom: 20px;
+}
+.nope1{
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-top: 14px;
+}
+.nope1 a{
+    border: 1px solid #2577FD;
+    background-color: #2577FD;
+    color: #fff;
+    padding: 11px 40px;
+   
+}
+.nope1 a:hover{
+color: #2577FD;
+background-color: #fff;
+transition: 0.5s;
+}
+@media(max-width: 767px) {
+     td{
+        padding: 0 !important;
+    }
+    .cont{
+        display: block;
+    }
+    .cont img{
+        width: 100px;
+    }
+    .cont p{
+        margin: 0;
+    }
+    .buttons .ho{
+        margin-left: 10px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .cont img{
+        width: 100px;
+    }
+    .buttons .ho{
+        margin-left: 300px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1999px){ 
+    .buttons .ho{
+        margin-left: 575px;
+    }
+}
+@media (min-width: 1200px) { 
+    .nope .ho{
+        margin-left: 760px;
+    }
+ }
